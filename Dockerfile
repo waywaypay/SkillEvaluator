@@ -5,7 +5,7 @@
 #
 # The image installs every public optional dependency. Tier 3 still requires
 # credentials for the selected provider and agent at runtime.
-FROM python:3.12-slim
+FROM python:3.14-slim
 
 ENV PIP_NO_INPUT=1 \
     PYTHONDONTWRITEBYTECODE=1
